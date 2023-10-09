@@ -4,7 +4,9 @@
 
 import pytest
 
+
 print("hello truc much :)")
+
 
 def f():
     raise SystemExit(1)
