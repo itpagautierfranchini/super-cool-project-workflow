@@ -1,5 +1,14 @@
 name: Custom
-on: push
+
+on: 
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
+
+permissions:
+  contents: read
+
 jobs:
   main:
     runs-on: ubuntu-latest
