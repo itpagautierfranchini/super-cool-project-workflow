@@ -28,4 +28,4 @@ jobs:
           flake8 --ignore=E265 .
       - name: Test with pytest
         run: |
-          pytest
+          pytest *.py
